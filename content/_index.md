@@ -55,6 +55,7 @@ sections:
   #   design:
   #     columns: '2'
   - block: collection
+    id: collection
     content:
       title: Recent Publications
       text: |-
