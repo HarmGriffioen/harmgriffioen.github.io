@@ -122,7 +122,7 @@ sections:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:, 
+      coordinates:
         latitude: '51.99957766428124'
         longitude: '4.377686662670541'  
       # contact_links:
