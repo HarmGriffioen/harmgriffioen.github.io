@@ -25,7 +25,7 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IFIP International Conference on New Technologies, Mobility and Security *
+publication: In *IFIP International Conference on New Technologies, Mobility and Security*
 
 abstract: "Ever since the introduction of the domain name system (DNS), attacks on the DNS ecosystem have been a steady companion. Over time, targets and techniques have shifted, and in the recent past a new type of attack on the DNS has emerged. In this paper we report on the DNS random subdomain attack, querying floods of non-existent subdomains, intended to cause a denial-of-service on DNS servers. Based on five major attacks in 2018 obtained through backscatter measurements in a large network telescope, we show the techniques pursued by adversaries, and develop a taxonomy of strategies of this attack."
 
