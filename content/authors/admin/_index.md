@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Ir. Harm Griffioen
+title: Harm Griffioen
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
