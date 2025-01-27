@@ -1,23 +1,21 @@
 ---
-title: "A different cup of TI? the added value of commercial threat intelligence"
+title: "Have you SYN me? characterizing ten years of Internet scanning"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Xander Bouwman
   - admin
-  - Jelle Egbers
+  - Giorgos Koursiounis
+  - Georgios Smaragdakis
   - Christian Doerr
-  - Bram Klievink
-  - Michel van Eeten
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2020-08-12T00:00:00Z'
+date: '2024-11-04T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -29,11 +27,11 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *USENIX security symposium*
+publication: In *ACM Internet Measurement Conference*
 
-abstract: "Commercial threat intelligence is thought to provide unmatched coverage on attacker behavior, but it is out of reach for many organizations due to its hefty price tag. This paper presents the first empirical assessment of the services of commercial threat intelligence providers. For two leading vendors, we describe what these services consist of and compare their indicators with each other. There is almost no overlap between them, nor with four large open threat intelligence feeds. Even for 22 specific threat actors – which both vendors claim to track – we find an average overlap of only 2.5% to 4.0% between the indicator feeds. The small number of overlapping indicators show up in the feed of the other vendor with a delay of, on average, a month. These findings raise questions on the coverage and timeliness of paid threat intelligence.
+abstract: "Port scanning is the de-facto method to enumerate active hosts and potentially exploitable services on the Internet. Over the last years, several studies have quantified the ecosystem of port scanning. Each work has found drastic changes in the threat landscape compared to the previous one, and since the advent of high-performance scanning tools and botnets a lot has changed in this highly volatile ecosystem.
 
-We also conducted 14 interviews with security professionals that use paid threat intelligence. We find that value in this market is understood differently than prior work on quality metrics has assumed. Poor coverage and small volume appear less of a problem to customers. They seem to be optimizing for the workflow of their scarce resource – analyst time – rather than for the detection of threats. Respondents evaluate TI mostly through informal processes and heuristics, rather than the quantitative metrics that research has proposed."
+Based on a unique dataset of Internet-wide scanning traffic collected in a large network telescope, we provide an assessment of Internet-wide TCP scanning with measurement periods in the last 10 years (2015 to 2024). We collect over 750 million scanning campaigns sending more than 45 billion packets and report on the evolution and developments of actors, their tooling, and targets. We find that Internet scanning has increased 30-fold over the last ten years, but the number and speed of scans have not developed at the same pace. We report that the ecosystem is extremely volatile, where targeted ports and geographical scanner locations drastically change at the level of weeks or months. We thus find that for an accurate understanding of the ecosystem we need longitudinal assessments. We show that port scanning becomes heavily commoditized, and many scanners target multiple ports. By 2024, well-known scanning institutions are targeting the entire IPv4 space and the entire port range."
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
